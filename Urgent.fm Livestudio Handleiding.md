@@ -1,7 +1,7 @@
 # Urgent.fm Livestudio Handleiding
 ## #1. routing diagram
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![routing diagram](https://imgur.com/a/nSOqn)
 
 ## #2. afspraken
 
