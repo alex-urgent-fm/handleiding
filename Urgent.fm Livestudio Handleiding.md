@@ -1,7 +1,7 @@
 # Urgent.fm Livestudio Handleiding
 ## #1. routing diagram
 
-![routing diagram](https://imgur.com/a/nSOqn)
+![routing diagram](https://i.imgur.com/eD0j5Xl.png)
 
 ## #2. afspraken
 
