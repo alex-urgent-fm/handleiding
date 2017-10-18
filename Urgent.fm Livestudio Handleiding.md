@@ -8,7 +8,7 @@
 1. Materiaallijst 
 ## #1. routing diagram
 
-![routing diagram](routing_big.png "Algemeen routing diagram")
+![routing diagram](https://i.imgur.com/eD0j5Xl.png "Algemeen routing diagram")
 
 ## #2. afspraken
 
