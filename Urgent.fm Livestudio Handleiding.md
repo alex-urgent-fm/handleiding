@@ -8,7 +8,7 @@
 1. Materiaallijst 
 ## #1. routing diagram
 
-![routing diagram](https://i.imgur.com/eD0j5Xl.png "Algemeen routing diagram")
+![routing diagram](routing_big.png "Algemeen routing diagram")
 
 ## #2. afspraken
 
@@ -99,7 +99,10 @@ deze preset zorgt geeft je:
     - track 25 is een stereo track voor de master bus: i/o 25/26
     - track 26 is een stereo track voor de radio feed: i/o 31/32
 
-## #5 Materiaallijst
+## #4 Gebruik Midas M32 console
+## #5 Gebruik Powerplay P16 (monitor mixertjes)
+
+## #6 Materiaallijst
 
 kast A
 
