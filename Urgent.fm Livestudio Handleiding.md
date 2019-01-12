@@ -42,9 +42,6 @@
       * Location: 'Audio HD' > 'Urgent Sessies' 
       * ![create](https://i.imgur.com/0bTv1S7.png "create new project")
     - de preset geeft je: 
-      - ch 1-24 mono: direct out van tafel (analog inputs 1-24)
-      - ch 25 stereo: midas master mix (analog input 31/32)
-      - ch 26 stereo: radio feed (analog input 27/28)
     - `zorg dat alle relevante tracks [armed] zijn (rode rec knob flikkert)`
 1. breng de midas in gereedheid:
     - laad de preset: 
