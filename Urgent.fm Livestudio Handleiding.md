@@ -18,22 +18,27 @@
 - Ruim alles op na de sessie: &nbsp;&nbsp;`geen onopgerolde kabels, los liggende micros/DI's, ...`
 - vul de mic checklist in, hoeft niet lang te duren. te vinden in bovenste schuif. zie materiaallijst in #5.
 
-## #3. Livesessie workflow
+## #3. Livesessie opstart checklist
 
 1. voorzie studio van stroom: <br/>
-    eerst links beneden -> 2x rechts -> linksboven
+    - zet de 4 stroomschakelaars aan: linksonder, linksboven, en rechtsonder 2 keer
 &nbsp;&nbsp; `!! bij foute volgorde kan de elektrische zekering springen. !!`
-
-1. zet de Mac aan
-    - knopje aan achterzijde.
-1. zet de stageblock aan in de Liveroom
-
-    - indien [mute] niet afgaat is de sync met tafel niet in orde. turn it off and on again (de stageblock). sync success-> groen lampje op M32 scherm in rechterbovenhoek
+    - zet de Mac aan: knopje aan achterzijde.
+    - zet de Midas aan: knopje aan de achterkant van de tafel, in de buurt van het stroomsnoer
+    - zet de yamaha versterker aan: links in de beenruimte onder de mengtafel. de Yamaha NS-10 zijn aangesloten.
+    - zet de Trinnov DSP aan: de onderste unit in de linker rack.
     - start Pro Tools op
-    - de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet aan staan om alles te doen syncen.
-    - start Dante Controller en bevestig dat alle labels groen worden eens pro-tools is opgestart.
-
-1. laad de livesessie preset, sla op onder Audio HD > Urgent.fm livesessies  
+    - zet de stageblock aan in de Liveroom
+    - indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success-> groen lampje op M32 scherm in rechterbovenhoek
+    
+1. start een nieuwe opnamesessie op de mac
+    - start pro tools. de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet dus aanstaan om alles te doen samenwerken
+    - start Dante Controller en laad de correcte preset in: `24ch Midas Recording preset`
+    - maak een nieuw project in Pro Tools: 
+      * file > create new
+      
+    
+laad de livesessie preset, sla op onder Audio HD > Urgent.fm livesessies  
 &nbsp; `naamgeving: yyyy-mm-dd programma - artiest`  
 deze preset zorgt geeft je:
 
