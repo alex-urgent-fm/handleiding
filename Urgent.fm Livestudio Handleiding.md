@@ -32,9 +32,7 @@
     1. indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success -> groen lampje op M32 scherm in rechterbovenhoek
     
 1. start een nieuwe opnamesessie op de mac
-
-![dante controller en pro tools](https://i.imgur.com/bBmiiyB.png "dante controller pro tools")
-
+    - ![dante controller en pro tools](https://i.imgur.com/bBmiiyB.png "dante controller pro tools")
     - start 'Pro Tools'. de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet dus aanstaan om alles te doen samenwerken
     - start 'Dante Controller' en laad de correcte preset in: `24ch Midas Recording preset`
     - maak een nieuw project in Pro Tools: $
