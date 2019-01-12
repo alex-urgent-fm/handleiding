@@ -21,15 +21,14 @@
 ## #3. Livesessie opstart checklist
 
 1. voorzie studio van stroom: <br/>
-    1. zet de 4 stroomschakelaars aan: linksonder, linksboven, en rechtsonder 2 keer
+    * zet de 4 stroomschakelaars aan: linksonder, linksboven, en rechtsonder 2 keer
 &nbsp;&nbsp; `!! bij foute volgorde kan de elektrische zekering springen. !!`
-    1. zet de Mac aan: knopje aan achterzijde.
-    1. zet de Midas aan: knopje aan de achterkant van de tafel, in de buurt van het stroomsnoer
-    1. zet de yamaha versterker aan: links in de beenruimte onder de mengtafel. de Yamaha NS-10 zijn aangesloten.
-    1. zet de Trinnov DSP aan: de onderste unit in de linker rack.
-    1. start Pro Tools op
-    1. zet de stageblock aan in de Liveroom
-    1. indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success -> groen lampje op M32 scherm in rechterbovenhoek
+    * zet de Mac aan: knopje aan achterzijde.
+    * zet de Midas aan: knopje aan de achterkant van de tafel, in de buurt van het stroomsnoer
+    * zet de yamaha versterker aan: links in de beenruimte onder de mengtafel. de Yamaha NS-10 zijn aangesloten.
+    * zet de Trinnov DSP aan: de onderste unit in de linker rack.
+    * zet de stageblock aan in de Liveroom
+    * indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success -> groen lampje op M32 scherm in rechterbovenhoek
     
 1. start een nieuwe opnamesessie op de mac
     - ![dante controller en pro tools](https://i.imgur.com/bBmiiyB.png "dante controller pro tools")
@@ -50,12 +49,10 @@
     
 1. breng de midas in gereedheid:
     - laad de preset: 
-      1. druk op de knop view onder show control 
-      1. navigeer met de pijltjes onder het scherm naar tabblad 'scenes'
+      1. druk op de knop view onder show control en navigeer met de pijltjes onder het scherm naar het tabblad 'scenes'
       1. laad de scene '24ch Standaardpatch'
   
 1. beluistering van opname:
-  - speel af op mac
   - beluister op chan 25/26 `ALTIJD in solo`.
   - om de apart opgenomen tracks te beluisteren: 
     - druk op knop 'ROUTING' naast het scherm
