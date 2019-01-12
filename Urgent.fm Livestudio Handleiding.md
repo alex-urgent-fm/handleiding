@@ -21,53 +21,50 @@
 ## #3. Livesessie opstart checklist
 
 1. voorzie studio van stroom: <br/>
-    - zet de 4 stroomschakelaars aan: linksonder, linksboven, en rechtsonder 2 keer
+    1. zet de 4 stroomschakelaars aan: linksonder, linksboven, en rechtsonder 2 keer
 &nbsp;&nbsp; `!! bij foute volgorde kan de elektrische zekering springen. !!`
-    - zet de Mac aan: knopje aan achterzijde.
-    - zet de Midas aan: knopje aan de achterkant van de tafel, in de buurt van het stroomsnoer
-    - zet de yamaha versterker aan: links in de beenruimte onder de mengtafel. de Yamaha NS-10 zijn aangesloten.
-    - zet de Trinnov DSP aan: de onderste unit in de linker rack.
-    - start Pro Tools op
-    - zet de stageblock aan in de Liveroom
-    - indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success-> groen lampje op M32 scherm in rechterbovenhoek
+    1. zet de Mac aan: knopje aan achterzijde.
+    1. zet de Midas aan: knopje aan de achterkant van de tafel, in de buurt van het stroomsnoer
+    1. zet de yamaha versterker aan: links in de beenruimte onder de mengtafel. de Yamaha NS-10 zijn aangesloten.
+    1. zet de Trinnov DSP aan: de onderste unit in de linker rack.
+    1. start Pro Tools op
+    1. zet de stageblock aan in de Liveroom
+    1. indien [mute] op de stageblock niet uitgaat is de synchronisatie met tafel niet in orde. turn it off and on again (de stageblock). sync success -> groen lampje op M32 scherm in rechterbovenhoek
     
 1. start een nieuwe opnamesessie op de mac
-    - start pro tools. de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet dus aanstaan om alles te doen samenwerken
-    - start Dante Controller en laad de correcte preset in: `24ch Midas Recording preset`
-    - maak een nieuw project in Pro Tools: 
-      * file > create new
-      
-    
-laad de livesessie preset, sla op onder Audio HD > Urgent.fm livesessies  
-&nbsp; `naamgeving: yyyy-mm-dd programma - artiest`  
-deze preset zorgt geeft je:
-
-    - ch 1-24 mono: direct out van tafel (analog inputs 1-24)
-    - ch 25 stereo: midas master mix (analog input 31/32)
-    - ch 26 stereo: radio feed (analog input 27/28)
+![dante controller en pro tools](https://i.imgur.com/bBmiiyB.png "dante controller pro tools")
+    - start 'Pro Tools'. de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet dus aanstaan om alles te doen samenwerken
+    - start 'Dante Controller' en laad de correcte preset in: `24ch Midas Recording preset`
+    - maak een nieuw project in Pro Tools: $
+      *![create](https://i.imgur.com/0bTv1S7.png "create new project")
+      * 'file' > 'create new'
+      * Name: gebruik altijd de naamgeving 'yyyy-MM-dd Programma - Artiest'
+      * Create From Template: template group 'recording' > '24ch Standaardpatch'
+      * I/O settings: '24io'
+      * Location: 'Audio HD' > 'Urgent Sessies' 
+    - de preset geeft je: 
+      - ch 1-24 mono: direct out van tafel (analog inputs 1-24)
+      - ch 25 stereo: midas master mix (analog input 31/32)
+      - ch 26 stereo: radio feed (analog input 27/28)
     - `zorg dat alle relevante tracks [armed] zijn (rode rec knob flikkert)`
-
-1. verwijder overbodige tracks en hernoem de gebruikte tracks als er tijd is  
-`opnemen doe je door op het toetsenbord [3] in te drukken, stoppen door [space]`
-1. werking midas: neem de midas handleiding door! en/of zie hoofdstukje basiswerking M32
-    - fx configuratie: bus 13-16
-      1. stereo slapback delay. handig om gitaren, etc breed te trekken
-      1. tap delay: tap op knopje dat flikkert
-      1. room reverb: korte reverb
-      1. rich plate reverb:
+    
+1. werking midas:
+    - laad de preset: 
+      1. druk op de knop view onder show control 
+      1. navigeer met de pijltjes onder het scherm naar tabblad 'scenes'
+      1. laad de scene '24ch Standaardpatch'
+    - zie apart bestand voor de Midas standaardpatch beschrijving
     - Masterbus mastering
         - select master > knop [effects] naast scherm.
         - mik op -9 tot -6 dB, de rest trekt de radiostudio wel gelijk.
-1. monitoring:
-    1. voor kleine sessies < 15 channels laad de scene `live-15chDir>mon`
-        - de eerste 15 preamps worden rechtstreeks doorgestuurd naar de powerplay bakjes, kanaal 16 is talkback.
-    1. grotere sessies > 15 kanalen laad de scene `live-12bus>mon`
-        - gebruik de mixbussen 1-12 om door te sturen. je moet zelf submixes maken. (zie midas handleiding). kanaal 16 nog steeds talkback (je hoort effect in studiomonitors, deze zit niet mee in koptelefoons.)
-    1. om de tracks als multitrack weer op de faders te krijgen (om achteraf te mixen) laad de scene `Replay multitrack`. deze behoud je fader positions en channel strips
 1. beluistering van opname:
-        - speel af op mac
-        - beluister op chan 25/26 `ALTIJD in solo`.
-
+  - speel af op mac
+  - beluister op chan 25/26 `ALTIJD in solo`.
+  - om de apart opgenomen tracks te beluisteren: 
+    - druk op knop 'ROUTING' naast het scherm
+    - op het 'home' tab, zet inputs 1-8 op 'card 1-8', 9-16 op 'card 9-16' enz
+    - let op! bij het terugzetten blijft 'Inputs 25-32' op 'card 25-32'
+        
 ### routing referentie voor livesessie
 
 - op Midas:
