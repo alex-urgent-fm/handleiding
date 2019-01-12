@@ -36,12 +36,12 @@
     - start 'Pro Tools'. de studio master clock is afgestemd op [RedNet5 PTHD], pro tools moet dus aanstaan om alles te doen samenwerken
     - start 'Dante Controller' en laad de correcte preset in: `24ch Midas Recording preset`
     - maak een nieuw project in Pro Tools: $
-      *![create](https://i.imgur.com/0bTv1S7.png "create new project")
       * 'file' > 'create new'
       * Name: gebruik altijd de naamgeving 'yyyy-MM-dd Programma - Artiest'
       * Create From Template: template group 'recording' > '24ch Standaardpatch'
       * I/O settings: '24io'
       * Location: 'Audio HD' > 'Urgent Sessies' 
+      * ![create](https://i.imgur.com/0bTv1S7.png "create new project")
     - de preset geeft je: 
       - ch 1-24 mono: direct out van tafel (analog inputs 1-24)
       - ch 25 stereo: midas master mix (analog input 31/32)
