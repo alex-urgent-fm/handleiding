@@ -48,15 +48,12 @@
       - ch 26 stereo: radio feed (analog input 27/28)
     - `zorg dat alle relevante tracks [armed] zijn (rode rec knob flikkert)`
     
-1. werking midas:
+1. breng de midas in gereedheid:
     - laad de preset: 
       1. druk op de knop view onder show control 
       1. navigeer met de pijltjes onder het scherm naar tabblad 'scenes'
       1. laad de scene '24ch Standaardpatch'
-    - zie apart bestand voor de Midas standaardpatch beschrijving
-    - Masterbus mastering
-        - select master > knop [effects] naast scherm.
-        - mik op -9 tot -6 dB, de rest trekt de radiostudio wel gelijk.
+  
 1. beluistering van opname:
   - speel af op mac
   - beluister op chan 25/26 `ALTIJD in solo`.
