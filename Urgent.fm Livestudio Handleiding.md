@@ -46,12 +46,10 @@
       - ch 25 stereo: midas master mix (analog input 31/32)
       - ch 26 stereo: radio feed (analog input 27/28)
     - `zorg dat alle relevante tracks [armed] zijn (rode rec knob flikkert)`
-    
 1. breng de midas in gereedheid:
     - laad de preset: 
       1. druk op de knop view onder show control en navigeer met de pijltjes onder het scherm naar het tabblad 'scenes'
       1. laad de scene '24ch Standaardpatch'
-  
 1. beluistering van opname:
   - beluister op chan 25/26 `ALTIJD in solo`.
   - om de apart opgenomen tracks te beluisteren: 
