@@ -14,8 +14,8 @@
 ## #2. afspraken
 
 - Geen drank in de liveroom. uitzondering flesjes **met dop**
-- geen drank in de mixroom nabij de mixing console.
-- geen voedsel in de studio.
+- Geen drank in de mixroom nabij de mixing console.
+- Geen voedsel in de studio.
 - Ruim alles op na de sessie: &nbsp;&nbsp;`geen onopgerolde kabels, los liggende micros/DI's, ...`
 - vul de mic checklist in, hoeft niet lang te duren. te vinden in bovenste schuif. zie materiaallijst in #5.
 
@@ -104,28 +104,28 @@ dus:
 
 ## #6 Materiaallijst
 
-kast A
+### kast A
 
 - schuif 1:
-  - 6x Sure Sm58
-  - 2x Sennheiser e606
-  - 10x Radial DI (passief)
+  - 6x Sure SM58
+  - 2x Sennheiser e606 (?)
+  - 10x Radial JDI (passief)
   - 3x popfilter
   - stereo bar
   - mic mount extension
-  - materiaallijst
+  - **materiaallijst**
 - schuif 2:
-  - 6x Shure Sm57
-  - 3x Shure Bèta 57
-  - 1x Shure Bèta 52a
-  - 1x AKG d112
+  - 6x Shure SM57
+  - 3x Shure BETA 57
+  - 1x Shure BETA 52a
+  - 1x AKG D112
   - 1x AKG D12
-  - 1x pg52
+  - 1x PG52
 - schuif 3:
   - 4x Sennheiser MD421
   - 2x Audio Technica AT2020
   - 2x Audio Technica AT4041
-  - 2x Shure Sm81
+  - 2x Shure SM81
 - schuif 4: `alle koptelefoons MET 3.5mm adapter`
   - 5x Sennheiser HD280 koptelefoon
-  - AKG d50
+  - AKG D50 (?)
