@@ -34,7 +34,7 @@
 1. start een nieuwe opnamesessie op de Mac
     - ![Dante controller en Pro Tools](https://i.imgur.com/bBmiiyB.png "Dante controller Pro Tools")
     - start 'Pro Tools'. de studio master clock is afgestemd op [RedNet5 PTHD], Pro Tools moet dus aanstaan om alles te doen samenwerken
-    - start 'Dante Controller' en laad de correcte preset in: `Setup REDNET` `24ch Midas Recording preset`
+    - start 'Dante Controller' en laad de correcte preset in: `Documenten > Setup REDNET > 24ch Midas Recording preset`
     - maak een nieuw project in Pro Tools:
       * via Dashboard > CREATE
       * via 'File' > 'create new'
@@ -61,9 +61,9 @@
         
 ### routing referentie voor livesessie
 
-#### op Midas M32:
+#### routing op Midas M32:
 
-  - routing > home `=> selectie van inputs op tafel`
+  - home `=> selectie van inputs op tafel`
     - [ 1- 8] -> AES50 A1-8
     - [ 9-16] -> AES50 A9-16
     - [17-24] -> AES50 A17-24
@@ -73,15 +73,15 @@ dus:
 
       - 24 kanalen komen van de stageblock
       - 25/26 is playback van master opname op PC
-      - 31/32 is afluistering van live radio.
-  - routing > out 1-16 `=> uitsturen van masterbus naar radio en pro-tools`  
+      - 31/32 is afluistering van live radio
+  - out 1-16 `=> uitsturen van masterbus naar radio en pro-tools`  
         - 13/14 is [direct out channel 31/32] -> `stuurt radio L/R naar Pro Tools`  
         - 15/16 is [master L/R Post master fader]. -> `stuurt masterbus naar Pro Tools`    
         - rest wordt niet gebruikt
-  - routing > Ultranet P16 `=> uitsturen naar powerplay monitoring bakjes`  
-        - in scene preset  &nbsp;&nbsp;`live-direct-moni` ?: [1-16] -> [direct channel out 1-16 (prefader)]  
-        - in scene preset  &nbsp;&nbsp;`live-bus-moni` ?: [1-16] -> mixbus 1-16 (prefader)  
-  - routing > card &nbsp;&nbsp;`=> uitsturen van dry kanalen naar Pro Tools`  
+  - Ultranet P16 `=> uitsturen naar powerplay monitoring bakjes`  
+        - in scene preset  ??? &nbsp;&nbsp;`live-direct-moni` ?: [1-16] -> [direct channel out 1-16 (prefader)]  
+        - in scene preset  ??? &nbsp;&nbsp;`live-bus-moni` ?: [1-16] -> mixbus 1-16 (prefader)  
+  - card &nbsp;&nbsp;`=> uitsturen van dry kanalen naar Pro Tools`  
         - [ 1- 8] -> AES50 A1-8  
         - [ 9-16] -> AES50 A9-16  
         - [17-24] -> AES50 A17-24  
